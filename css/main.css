@@ -1,0 +1,397 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Gill sans MT', sans-serif;
+    color: #26272d;
+}
+button,
+button:hover,
+button:focus{
+    font-family: inherit;
+    outline: none;
+    border: none;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    line-height: 1.2em;    
+    color: #26272d;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+ul,li{
+    display: block;
+    padding: 0;
+    margin: 0;
+    
+}
+.btn{
+    border-radius: 21px;
+    background-color:#267df4 ;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    padding: 5px 25px 10px;
+    text-decoration: none; 
+    
+}
+.btn:hover{
+    background-color:#1a6de2 ;
+    color: #fff;
+    border: 1px solid #1a6de2;
+    box-shadow: 0 8px 20px rgb(37 0 249 / 25%);
+}
+.btn:active{
+    background-color: #267df4 ;
+    box-shadow: none;
+
+}
+.header{
+    padding-top: 50px;
+    background: url(../img/background.jpeg) no-repeat center bottom;
+    height: 1000px;
+}
+
+
+.tour__link{
+    text-decoration: none;
+    color: #26272d;
+}
+.tour__link:hover{
+    
+    color: #9ba1ae;
+}
+.tour{
+    font-size: 16px;   
+    
+}
+.tour__list{
+    margin-left: 30px; 
+}
+
+.full{
+    display: inline-block;
+}
+
+.contacts{
+    font-size: 16px;  
+    
+}
+.contants__link{
+    text-decoration: none;
+    color: #26272d;
+    margin-right: 34px;     
+}
+.contants__link:hover{ 
+    color: #9ba1ae;
+}
+.btn__apple{
+    width: 17px;
+    height: 20px;
+}
+.btn__get{
+    font-size: 16px;
+    margin: 0;
+    margin-left: 15px;
+    padding-top: 5px;
+    
+}
+.offer{
+    max-width: 853px;
+    
+    margin: 100px auto 0;
+}
+.offer__title{
+    font-size: 62px;
+    text-align: center;
+}
+
+
+.offer__text{
+    
+    font-size: 20px;
+    margin-top: 32px;
+    font-weight: 400;
+    text-align: center;
+    color: #9ba1ae;
+}
+.offer__btn {
+    padding: 10px 34px ;
+    display: block;
+    color: #26272d;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px ;
+    margin: 50px auto 0;
+    max-width: 200px;
+}
+.video__text{
+    margin: 0;
+    margin-left: 20px;
+    
+    
+}
+.offer__btn:hover {
+    background: #fff;
+    color: #26272d;
+    
+}
+.video__play{
+    width: 10px;
+    height: 10px;
+    
+    
+}
+.information{
+    padding-top: 100px;
+    
+}
+.title{
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 45px;
+}
+.text{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.iphone{
+    margin-top: 120px;
+    margin-left: -60px;
+    
+}
+
+.day__btn{
+    margin-top: 70px;
+}
+.day__title{
+    font-size: 42px;
+    margin-top: 120px;
+    
+}
+.day-first__text{
+    margin-top: 70px;
+    font-size: 20px;
+    color: #9ba1ae;
+}
+.day-second__text{
+    margin-top: 20px;
+    font-size: 20px; 
+    color: #9ba1ae;
+}
+.day-first__btn{
+    border-radius: 21px;
+    background-color:#267df4 ;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    padding: 10px 34px   ;
+    text-decoration: none; 
+}
+.day-first-text__btn{
+    margin: 0;
+}
+.day-first-img__btn{
+    width: 13px;
+    height: 12px;
+    margin-left: 50px;
+    
+}
+.day-first__btn:hover{
+    background-color: #1a6de2;
+    color: #fff;
+}
+.day-second__btn{
+    padding: 10px 33px  ;
+    display: block;
+    color: #26272d;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px ;
+    margin-left: 20px;
+}
+.day-second__btn:hover{
+    background-color: #d3d6dd;
+    color: #26272d;
+}
+.day-second-text__btn{
+    margin: 0;
+}
+.partners{
+    padding-top: 170px;
+}
+.every__title{
+    font-size: 42px;
+    font-weight: 700;
+    width: 300px;
+}
+.every-first__text{
+    margin-top: 80px;
+    font-size: 20px;
+    max-width: 470px;
+    color: #9ba1ae;
+}
+.every-second-text{
+    margin-top: 40px;
+    font-size: 20px;
+    max-width: 434px;
+    color: #9ba1ae;
+}
+.pertner{
+    margin-top: 60px;
+}
+.partner__title{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+}
+
+.partner-second__img{
+    margin-left: 30px;
+}
+.footer{
+    padding: 240px 0 200px;
+}
+.wapp{
+    max-width: 267px;
+    color: #9ba1ae;
+    padding: 30px 0 ;
+}
+.learn{
+    width: 110px;
+    
+}
+.learn-title__list{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.learn__list{
+    margin-top: 25px;
+}
+.learn__link{
+    font-size: 16px;
+    color: #9ba1ae;
+    text-decoration: none;
+}
+.about{
+    width: 135px;
+}
+.about-title__list{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.about__list{
+    margin-top: 25px;  
+}
+.about__link{
+    font-size: 16px;
+    color: #9ba1ae;
+    text-decoration: none;
+}
+.support{
+    width: 90px;
+}
+.support-title__list{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.support__list{
+    margin-top: 25px;  
+}
+.support__link{
+    font-size: 16px;
+    color: #9ba1ae;
+    text-decoration: none;
+}
+
+/*992-1199*/
+@media screen and (max-width:1199px) {
+	.container{
+		max-width: 960px;
+	}
+    
+    
+    
+}
+
+/*768-991*/
+@media screen and (max-width:991px){
+	.container{
+		max-width: 720px; 
+	}
+    
+    .worldmap{
+        margin-top: 30px;
+    }
+    .offer__title{
+        font-size: 98%;  
+    }
+    .offer__text{
+        font-size:  98%;    
+    }
+}	
+
+/*576-767*/
+@media screen and (max-width:767px){
+	.container{
+		width: 540px;
+		
+	}
+    .container{
+		max-width: 720px; 
+	}
+    .about-title__list{
+        margin-top: 20px;
+    }
+    .support-title__list{
+        margin-top: 20px;
+    }
+	.worldmap{
+        margin-top: 30px;
+    }
+    .offer__title{
+        font-size:  98%; 
+    }
+    .offer__text{
+        font-size:  98%;   
+    }
+}
+
+/*320-575*/
+@media screen and (max-width:575px){
+	.container{
+		padding: 0 15px;
+	}
+    .container{
+		max-width: 720px; 
+	}
+    .about-title__list{
+        margin-top: 20px;
+    }
+    .support-title__list{
+        margin-top: 20px;
+    }
+    .worldmap{
+        margin-top: 30px;
+    }
+    .offer__title{
+        font-size:  95%; 
+    }
+    .offer__text{
+       font-size:  95%;   
+    }
+}
